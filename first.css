@@ -1,0 +1,113 @@
+body{
+background-image: url('https://wallpapercave.com/wp/wp2610453.jpg');
+
+transition: 2s;
+}
+h{
+	color: green;
+	font-weight: 150%;
+	font-size: 200%;
+	transition-duration: 1s;
+	display: block;
+	text-align: center;
+	font-style: italic;
+}
+section{
+	width: 30%;
+	height: 500px;
+transition-property: width;
+transition-delay: 1s;
+	transition-duration: 3s;
+	padding: 20px;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	background-color: pink;
+     text-align: center;
+	float: left;
+	border-collapse: separate;
+    box-sizing: border-box;
+    border-spacing: .5px;
+    -webkit-border-horizontal-spacing: 1px;
+    
+}
+section:hover{
+	width: 40%;
+	background-image: url('https://tse4.mm.bing.net/th?id=OIP.ArtflKwrDp2naglk70u4_gHaE3&pid=Api&P=0&w=254&h=168');
+	border-radius: 400px;
+}
+table{
+	width: 85%;
+    
+	
+	padding: 6px;
+margin-right: 50px;
+	margin-left: 50px;
+}
+tr{
+	text-align: center;
+	background-color: #c89666;
+	border-bottom-left-radius: 3px;
+
+}
+th:first-child{
+	opacity: .8;
+	text-align: left;
+}
+
+th{
+	text-align: center;
+	background-color: #c89666;
+}
+td:first-child{
+	text-align: left;
+}
+tr:hover{
+color: green;
+font-weight: 150%;
+}
+td a{
+	text-decoration: none;
+	background-color: transparent;
+}
+span{
+	color: #f43a09;
+}
+h1{
+	color: #3D9970;
+	text-align: left;
+}
+nav{
+	
+	float: right;
+	width: 20%;
+	background-color: transparent;
+
+	margin-top: 100px;
+	margin-left: 100px;
+	text-align: center;
+
+
+}
+nav i{
+	display: block;
+	color: green;
+padding: 30px;
+}
+nav a{
+
+display: block;
+	text-decoration: none;
+}
+i:hover{
+	color: #f4c430;
+}
+ nav img:hover{
+
+	border-radius: 250px;
+}
+table, th, td {
+    border: .5px solid violet;
+    border-radius: 5px 0 0 0;
+    
+    
+}
